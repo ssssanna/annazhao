@@ -1,0 +1,136 @@
+/* setup */
+h1, h2, h3, nav ul, nav ol, li, p, a, img {
+    padding: 0; 
+    margin:0; 
+}
+
+html{
+    scroll-behavior:smooth; 
+}
+
+img{
+    display: block; 
+    max-width: 100%;
+    height: auto; 
+
+    margin: auto; 
+}
+
+
+/* header and background */
+header {
+    background-image: url(./images/header-bg.jpg);
+    height: 250px;  
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em; 
+
+    text-align: center; 
+}
+
+header h1 {
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(43, 42, 41);
+    font-size: 48px; 
+    line-height: 1.2em; 
+    letter-spacing: 0.2em;
+
+    padding: 0.5em; 
+}
+
+body{
+    background: url(./images/portal-bg.jpg); 
+    text-align: center;  
+    line-height: 1.5em; 
+}
+
+
+/* main content */
+section, #me, #tools{
+    background: rgb(205,233,196);
+    background: radial-gradient(circle, rgba(205,233,196,0.6601234243697479) 2%, rgba(224,231,210,0.774969362745098) 51%, rgba(244,245,229,0.6293110994397759) 100%);
+    margin: 20px; 
+    padding: 10px; 
+
+    border-end-end-radius: 3em;
+    border-start-start-radius: 3em; 
+}
+
+h2, h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px; 
+    color: rgb(28, 23, 19);
+
+    padding: 0.8em; 
+}
+
+aside p{
+    font-family: 'Lato', sans-serif;
+    color:rgb(43, 42, 41);
+
+    text-align: left; 
+    padding: 10px; 
+}
+
+nav ul, nav ol{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Lato', sans-serif;
+    color:rgb(43, 42, 41);
+    font-style: normal;  
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+nav a{
+    display: block; 
+    margin: 10px; 
+    padding: 10px; 
+    color:rgb(43, 42, 41);
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color:rgb(6, 44, 74); 
+}
+
+a:hover {
+    color: rgb(103, 107, 95); 
+}
+
+
+/* footer */
+footer{
+    font-family: 'Lato', sans-serif;
+    color:rgb(62, 61, 60); 
+    padding: 1em, 0, 1em, 0; 
+
+    background-color: rgba(224, 231, 210, 0.567);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+
+/* media query for desktop */
+@media only screen and (min-width: 600px) {
+    header, main, footer {
+        max-width: 1020px;
+        margin: auto; 
+    }
+
+    main{
+        display: flex; 
+    }
+
+    #projects{
+        flex: 2;
+    }
+
+    #other{
+        flex: 1; 
+    }
+
+    header h1 {
+        padding: 1.5em; 
+    }
+}
+
+

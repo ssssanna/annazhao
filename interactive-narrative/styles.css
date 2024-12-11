@@ -1,0 +1,594 @@
+/* reset *//* reset *//* reset *//* reset *//* reset *//* reset *//* reset *//* reset *//* reset *//* reset *//* reset */
+h1, h2, p, nav ul, nav ul li, a, img {
+    padding: 0; 
+    margin: 0; 
+}
+
+img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+a {
+    text-decoration: none; 
+    list-style-type: none;
+    color: #1C1614; 
+}
+
+nav ul {
+    text-decoration: none; 
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts *//* fonts */
+#sitename {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    color: #1C1614; 
+}
+
+#headerh1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    line-height: 1.5em; 
+    color: #1C1614; 
+    text-align: center; 
+    letter-spacing: 1.5px; 
+}
+
+#mainnav ul li a {
+    display: block; 
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; 
+    color: #1C1614; 
+    text-align: left; 
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    font-size: 18px; 
+    text-align: center;
+
+    padding: 1em; 
+}
+
+main section p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; 
+    line-height: 1.8em; 
+    text-align: left; 
+    color: #1C1614; 
+    letter-spacing: 0.3px; 
+
+    margin-left: 1em; 
+    margin-right: 1em; 
+    padding: 0 1em 1em 1em; 
+}
+
+footer p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; 
+    line-height: 1.8em; 
+    text-align: left; 
+    color: #1C1614; 
+    letter-spacing: 0.3px; 
+}
+
+main section .paddingtop {
+    padding-top: 2em; 
+}
+
+/* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img *//* img */
+main section img {
+    padding: 1em 2em 1em 2em; 
+}
+
+/* navigation *//* navigation *//* navigation *//* navigation *//* navigation *//* navigation *//* navigation *//* navigation */
+#logo {
+    display: flex;
+    gap: 0.15em; 
+}
+
+#headerimg {
+    margin-top: 0.8em;  
+    margin-left: 0.5em; 
+}
+
+#sitename {
+    margin-top: 0.6em; 
+}
+
+#headernav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: white; 
+    padding-bottom: 1em; 
+}
+
+#mainnav ul {
+    margin-top: 1.4em; 
+}
+
+#mainnav > ul {
+    display: flex; 
+    flex-direction: row;
+    gap: 0.8em; 
+}
+
+#mainnav > ul > li {
+    flex: 1; 
+}
+
+#mainnav ul li a:hover {
+    color: #1c161498;
+}
+
+#mainnav > ul > li {
+    border-right: 1px solid #1C1614;
+    padding-right: 1em; 
+}
+
+#mainnav > ul > li:last-of-type {
+    border: none; 
+}
+
+#mainnav ul li ul {
+    position: absolute;
+    left: -9999px; 
+
+    background: white; 
+    margin: 0 1em 1em 0; 
+}
+
+#mainnav ul li ul li {
+    padding: 1.5em 1em 1.5em 1em;   
+}
+
+#mainnav ul li ul li:hover {
+    background: rgba(230, 230, 230, 0.663); 
+    transform: scale(1.1); 
+    transition: all 0.2s ease-in-out; 
+}
+
+#mainnav ul li:hover ul {
+    left: auto; 
+}
+
+#mainnav ul li ul li a {
+    text-align: left; 
+}
+
+#mainnav ul li ul li a:hover {
+    color: #1c161498;
+}
+
+a:hover {
+    color: #1c161498;
+}
+
+/* home header *//* home header *//* home header *//* home header *//* home header *//* home header *//* home header */
+#home header {
+    height: 52em; 
+}
+
+#home {
+    background-image: url(./images/home-bg.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center top; 
+    background-attachment: fixed; 
+}
+
+#home #headerh1 {
+    margin: 21em 1em 2em 1em; 
+    font-size: 24px; 
+}
+
+/* home page *//* home page *//* home page *//* home page *//* home page *//* home page *//* home page *//* home page */
+#home main article p {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px; 
+    line-height: 1.5em; 
+    text-align: center; 
+    color: #1C1614; 
+    letter-spacing: 0.3px; 
+}
+
+#home main {
+    background-color: white;
+    padding: 3em; 
+}
+
+#home footer {
+    margin-top: 0; 
+}
+
+#home main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px; 
+}
+
+#home main article img {
+    opacity: 0.8; 
+    border-radius: 20px; 
+    width: 100%; 
+}
+
+#home .yellowstonecard {
+    border-radius: 2em; 
+    padding: 1em;  
+    box-shadow: 7px 7px 22px -3px rgba(163,163,163,1);
+
+    position: relative; 
+}
+
+#home .yellowstonecard p {
+    position: absolute; 
+    bottom: 80px; 
+    left: 0; 
+    right: 0; 
+}
+
+#home .tetoncard {
+    border-radius: 2em; 
+    padding: 1em; 
+    box-shadow: 7px 7px 22px -3px rgba(163,163,163,1);
+
+    position: relative; 
+}
+
+#home .tetoncard p {
+    position: absolute; 
+    bottom: 95px; 
+    left: 0; 
+    right: 0; 
+}
+
+#home .antelopecard {
+    border-radius: 2em; 
+    padding: 1em; 
+    box-shadow: 7px 7px 22px -3px rgba(163,163,163,1);
+
+    position: relative;
+}
+
+#home .antelopecard p {
+    position: absolute; 
+    bottom: 100px; 
+    left: 0; 
+    right: 0; 
+}
+
+#home .rockycard {
+    border-radius: 2em; 
+    padding: 1em; 
+    box-shadow: 7px 7px 22px -3px rgba(163,163,163,1);
+
+    position: relative; 
+}
+
+#home .rockycard p {
+    position: absolute; 
+    bottom: 80px; 
+    left: 0; 
+    right: 0; 
+}
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+footer {
+    background-color: white; 
+    margin-top: 1em; 
+    padding-top: 0.5em 2em 0.5em 2em;
+}
+
+footer p {
+    font-size: 14px; 
+    text-align: center;
+    padding: 2px; 
+}
+
+/* yellowstone page *//* yellowstone page *//* yellowstone page *//* yellowstone page *//* yellowstone page */
+#yellowstone header {
+    background-image: url(./images/image3.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 40em;
+}
+
+#yellowstone #headerh1 {
+    color: white; 
+    margin: 16em 1em 2em 1em; 
+}
+
+#yellowstone main section .addpadding {
+    padding-top: 1em; 
+}
+
+/* grand teton page *//* grand teton page *//* grand teton page *//* grand teton page *//* grand teton page */
+#grandteton header {
+    background-image: url(./images/image47.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 40em;
+}
+
+#grandteton #headerh1 {
+    color: white; 
+    margin: 18em 1em 2em 1em; 
+}
+
+/* lower antelope canyon page *//* lower antelope canyon page *//* lower antelope canyon page *//* lower antelope canyon page */
+#lowerantelope header {
+    background-image: url(./images/image33.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 40em;
+}
+
+#lowerantelope #headerh1 {
+    color: white; 
+    margin: 16em 1em 2em 1em; 
+}
+
+/* rocky mountain page *//* rocky mountain page *//* rocky mountain page *//* rocky mountain page *//* rocky mountain page */
+#rocky header {
+    background-image: url(./images/image15.jpg);  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 40em;
+}
+
+#rocky #headerh1 {
+    color: white; 
+    margin: 18em 1em 2em 1em; 
+}
+
+#rocky main section .addpadding {
+    padding-top: 1em; 
+}
+
+/* about page *//* about page *//* about page *//* about page *//* about page *//* about page *//* about page *//* about page */
+#about #aboutimg {
+    display: none; 
+}
+
+#about header {
+    background-image: url(./images/bio1.jpg);  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 40em;
+}
+
+#about #headerh1 {
+    color: white; 
+    margin: 17em 1em 2em 1em; 
+}
+
+#about #bio p {
+    padding-top: 1em; 
+}
+
+#about #bio .paddingtop {
+    padding-top: 2em; 
+}
+
+/* media query *//* media query *//* media query *//* media query *//* media query *//* media query *//* media query */
+@media only screen and (min-width: 600px) {
+    header, main, footer {
+        max-width: 1200px; 
+        margin: auto; 
+    }
+
+    main p a {
+        font-weight: 400; 
+    }
+
+    /* general setting *//* general setting *//* general setting *//* general setting *//* general setting *//* general setting */
+    main section p {
+        padding: 0 1.5em 1.5em 1.5em; 
+    }
+
+    #headerh1 {
+        font-size: 24px; 
+    }
+
+    /* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+    footer {
+        margin-top: 50px; 
+    }
+
+    footer p {
+        text-align: right;
+    }
+
+    /* home page *//* home page *//* home page *//* home page *//* home page *//* home page *//* home page *//* home page */
+    #home #headerh1 {
+        font-size: 28px;
+        text-align: center; 
+        margin: 19em 1em 2em 1em; 
+    }
+
+    #home main article p {
+        font-size: 24px; 
+    }
+
+    #home main article {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px; 
+    }
+
+    #home .yellowstonecard:hover {
+        transform: scale(1.08); 
+        transition: all 0.2s ease-in-out; 
+    }
+
+    #home .tetoncard:hover {
+        transform: scale(1.08); 
+        transition: all 0.2s ease-in-out; 
+    }
+
+    #home .antelopecard:hover {
+        transform: scale(1.08); 
+        transition: all 0.2s ease-in-out; 
+    }
+
+    #home .rockycard:hover {
+        transform: scale(1.08); 
+        transition: all 0.2s ease-in-out; 
+    }
+
+    /* about page *//* about page *//* about page *//* about page *//* about page *//* about page *//* about page *//* about page */
+    #about main #bio img {
+        display: none; 
+    }
+
+    #about header {
+        background: none; 
+        height: 13em; 
+    }
+
+    #about #headerh1 {
+        color: #1C1614; 
+        font-size: 28px; 
+        text-align: right; 
+
+        margin: 4em 2em 1em 6em; 
+    }
+
+    #about main {
+        display: flex; 
+        flex-direction: row; 
+        gap: 30px; 
+    }
+
+    #about #about1 {
+        padding: 0 2em 2em 0;
+    }
+
+    #about #about2 {
+        padding: 0 0 2em 2em;
+    }
+
+    #about #about3 {
+        padding: 2em 2em 0 0;
+    }
+
+    #about #about4 {
+        padding: 2em 0 0 2em;
+    }
+
+    #about #aboutimg { 
+        display: block; 
+        flex: 1; 
+
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about #bio {
+        flex: 1; 
+        align-self: center; 
+    }
+
+    /* grand teton page *//* grand teton page *//* grand teton page *//* grand teton page *//* grand teton page */
+    #grandteton main section .tetonabout {
+        display: flex; 
+    }
+
+    #grandteton main section .tetonroutes {
+        display: flex; 
+        justify-content: center;
+    }
+
+    #grandteton main section .tetonplog1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* yellowstone page *//* yellowstone page *//* yellowstone page *//* yellowstone page *//* yellowstone page */
+    #yellowstone main section .yellowstoneabout {
+        display: flex; 
+        justify-content: center;
+    }
+
+    #yellowstone main section .yellowstoneroutes {
+        display: flex; 
+        justify-content: center;
+    }
+
+    #yellowstone main section .yellowstoneplog1 {
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    #yellowstone main section .yellowstoneplog2 {
+        display: flex; 
+        justify-content: center;
+    }
+
+    #home .yellowstonecard p {
+        position: absolute; 
+        bottom: 80px; 
+        left: 0; 
+        right: 0; 
+    }
+
+    /* lower antelope canyon page *//* lower antelope canyon page *//* lower antelope canyon page *//* lower antelope canyon page */
+    #lowerantelope main section .antelopeabout {
+        display: flex;
+        justify-content: space-around;
+    } 
+
+    #lowerantelope main section .anteloperoutes {
+        display: flex;
+        justify-content: center;
+    } 
+
+    #lowerantelope main section .antelopeplog {
+        display: flex;
+        justify-content: center;
+    } 
+
+    /* rocky mountain page *//* rocky mountain page *//* rocky mountain page *//* rocky mountain page */
+    #rocky main section .rockyabout {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rocky main section .rockyroutes {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rocky main section .rockyplog1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rocky main section .rockyplog2 {
+        display: flex;
+        justify-content: center;
+    }
+}
