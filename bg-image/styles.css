@@ -1,0 +1,18 @@
+body{
+    background: url(images/bg.jpg);
+    padding-top: 270px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(244, 241, 240);
+}
+
+article{
+    width: 500px; 
+    padding: 30px; 
+    margin: auto; 
+    background: rgb(201,179,189);
+    background: linear-gradient(90deg, rgba(201,179,189,1) 0%, rgba(148,187,233,1) 100%);
+
+    border-radius: 20px; 
+    border-style: double; 
+    border-color:rgb(92, 69, 45);
+}

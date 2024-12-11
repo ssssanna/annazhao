@@ -1,0 +1,459 @@
+/* reset */
+h1, h2, .time, p, nav ul, li img {
+    margin: 0; 
+    padding: 0; 
+}
+
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; 
+    color: #5088b6; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth; 
+}
+
+
+
+/* home page header */
+body {
+    background: url(./images/bg.jpg); 
+}
+
+header h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px; 
+    color: #624d39;
+    text-align: center;
+    line-height: 1.5em; 
+
+    padding: 2.5em; 
+}
+
+
+
+/* main content */
+/* post 5 front page */
+#article5 {
+    background-image: url(./images/image5.jpg); 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+#post5{
+    background-color: #f8f8f6;
+
+    border-radius: 5em; 
+    padding: 1.5em; 
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+/* post 5 individual page */
+#post5header {
+    background-color: #432d19; 
+    padding: 2em; 
+}
+
+#post5header h1 {
+    color: #FAFAF6; 
+    background-image: url(./images/image5.jpg); 
+    border-radius: 1.5em; 
+    padding: 1.5em; 
+}
+
+#post5article {
+    background-color: #F1F1EE; 
+}
+
+#post5article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em 2em 1em 2em;  
+}
+
+#post5article img {
+    padding: 1em 2em 1em 2em; 
+    margin: auto; 
+}
+
+/* post 4 front page */
+#article4 {
+    background-image: url(./images/image4.jpg); 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+#post4{
+    background-color: #edece6;
+
+    border-radius: 5em; 
+    padding: 1.5em; 
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+/* post 4 individual page */
+#post4header {
+    background-color: #4d3927; 
+    padding: 2em; 
+}
+
+#post4header h1 {
+    color: #FAFAF6; 
+    background-image: url(./images/image4.jpg); 
+    border-radius: 1.5em; 
+    padding: 1.5em; 
+}
+
+#post4article {
+    background-color: #F1F1EE; 
+}
+
+#post4article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em 2em 1em 2em;  
+}
+
+#post4article img {
+    padding: 1em 2em 1em 2em; 
+    margin: auto; 
+}
+
+/* post 3 front page */
+#article3 {
+    background-image: url(./images/image3.jpg); 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+#post3{
+    background-color: #f8f8f6;
+
+    border-radius: 5em; 
+    padding: 1.5em; 
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+/* post 3 individual page */
+#post3header {
+    background-color: #513013; 
+    padding: 2em; 
+}
+
+#post3header h1 {
+    color: #FAFAF6; 
+    background-image: url(./images/image3.jpg); 
+    border-radius: 1.5em; 
+    padding: 1.5em; 
+}
+
+#post3article {
+    background-color: #F1F1EE; 
+}
+
+#post3article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em 2em 1em 2em;  
+}
+
+#post3article img {
+    padding: 1em 2em 1em 2em; 
+    margin: auto; 
+}
+
+/* post 2 front page*/
+#article2 {
+    background-image: url(./images/image2.jpg); 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+#post2 {
+    background-color: #edece6;
+
+    border-radius: 5em; 
+    padding: 1.5em; 
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+/* post 2 individual page */
+#post2header {
+    background-color: #65482e; 
+    padding: 2em; 
+}
+
+#post2header h1 {
+    color: #FAFAF6; 
+    background-image: url(./images/image2.jpg); 
+    border-radius: 1.5em; 
+    padding: 1.5em; 
+}
+
+#post2article {
+    background-color: #F1F1EE; 
+}
+
+#post2article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em 2em 1em 2em;  
+}
+
+/* post 1 front page*/
+#article1 {
+    background-image: url(./images/image1.jpg); 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+#post1 {
+    background-color: #f8f8f6;
+
+    border-radius: 5em; 
+    padding: 1.5em; 
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+/* post 1 individual page */
+#post1header {
+    background-color: #776351; 
+    padding: 2em; 
+}
+
+#post1header h1 {
+    color: #FAFAF6; 
+    background-image: url(./images/image1.jpg); 
+    border-radius: 1.5em; 
+    padding: 1.5em; 
+}
+
+#post1article {
+    background-color: #F1F1EE; 
+}
+
+#post1article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em 2em 1em 2em;  
+}
+
+/* cards front page */
+article h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px; 
+    color: #463e37; 
+    text-align: center;
+
+    padding: 1em; 
+}
+
+article p {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    line-height: 2em; 
+    text-align: left;
+
+    padding: 1em; 
+}
+
+.time {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #463e37; 
+    font-weight: lighter; 
+    text-align: center; 
+
+    line-height: 0; 
+}
+
+#post5article .time, #post4article .time, #post3article .time, #post2article .time, #post1article .time {
+    text-align: center; 
+    line-height: 0; 
+}
+
+
+
+/* aside buttons */
+aside nav {
+    background: rgb(231,238,244);
+    background: linear-gradient(90deg, rgba(231,238,244,1) 0%, rgba(222,221,209,0.7889749649859944) 100%);
+    padding: 2em 1em 2em 1em; 
+
+    font-family: 'Abril Fatface', cursive;
+    color: #463e37; 
+    text-align: center;
+    line-height: 2em; 
+
+    height: 100%; 
+}
+
+nav ul li {
+    padding: 0.8em; 
+    margin: 1.5em; 
+    border-style: solid;
+    color: #8a8980; 
+    border-radius: 1em; 
+
+    color: rgba(158,144,126,0.74);
+    box-shadow: 7px 10px 24px -6px rgba(158,144,126,0.74);
+}
+
+a:hover {
+    color: rgb(85, 94, 99); 
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+    font-family: 'Abril Fatface', cursive;
+    color: #463e37; 
+    text-align: center;
+    line-height: 1.5em; 
+}
+
+
+
+/* footer */
+footer {
+    background-color: #C9C8BB;
+    padding: 1.5em; 
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: #463e37; 
+    font-weight: 100; 
+    text-align: center; 
+    line-height: 2em; 
+}
+
+footer a {
+    text-decoration: none;
+    color: #463e37;  
+}
+
+
+/* media query */
+@media only screen and (min-width: 600px) {
+    #homeheader {
+        height: 52em; 
+
+        display: flex;
+        justify-content: center; 
+    }
+
+    #homeheader h1 {
+        font-size: 48px;
+        margin: auto; 
+    }
+
+    /* buttons */
+    main aside nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    li:hover {
+        transform: scale(1.1); 
+        transition: all 0.3s ease-in-out; 
+    }
+    
+    /* main section cards */
+    main section {
+        background-color: #e1e1da;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #article1, #article2, #article3, #article4, #article5 {
+        border-radius: 4em;  
+        margin: 2em; 
+        padding: 2em; 
+
+        box-shadow: -8px 8px 27px -12px rgba(69,64,58,1);
+    }
+
+    #post3, #post4 {
+        background-color: #edece6;
+    }
+
+    #post1, #post2, #post5 {
+        background-color: #f8f8f6;
+    }
+
+    #article1:hover, #article2:hover, #article3:hover, #article4:hover, #article5:hover {
+        transform: scale(0.98); 
+        transition: all 0.2s ease-in-out; 
+    }
+
+    /* individual page */
+    #post1header, #post2header, #post3header, #post4header, #post5header {
+        padding: 3em; 
+    }
+
+    #post1header h1, #post2header h1, #post3header h1, #post4header h1, #post5header h1{
+        padding: 3em; 
+    }
+
+    #post1article p, #post2article p, #post3article p, #post4article p, #post5article p {
+        padding: 1em 5em 1em 5em;
+        line-height: 2.2em; 
+    }
+
+    .desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .desktop main {
+        flex: 3; 
+    }
+
+    .desktop aside {
+        flex: 1; 
+    }
+
+    .desktop aside nav ul {
+        display: flex;
+        flex-direction: column; 
+        margin: auto; 
+    }
+
+    .desktop aside nav ul li {
+        line-height: 1em; 
+    }
+}

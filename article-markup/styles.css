@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 700px;
+    margin: auto; 
+
+    background-image: url(./images/bg.jpg); 
+    background-size: cover; 
+}
+
+img{
+    display: block;
+    height: auto; 
+    margin: auto; 
+
+    padding: 0; 
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(30, 28, 28);
+    font-size: 36px; 
+    text-align: center; 
+    line-height: 1.5em; 
+}
+
+header p{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 85, 83);
+    font-size: 16px;
+    font-weight: 300; 
+    text-align: left;
+    line-height: 1.5em;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(30, 28, 28);
+    font-size: 24px;
+    text-align: left; 
+    margin-top: 50px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(62, 61, 60);
+    font-size: 18px;
+    font-weight: 400; 
+    text-align: left; 
+    line-height: 1.5em; 
+}
+
+section p, ul{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(62, 61, 60);
+    font-size: 18px;
+    font-weight: 300; 
+    text-align: left;
+    line-height: 1.5em;
+
+    list-style-type: square;
+}
+
+ol{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(62, 61, 60);
+    font-size: 18px;
+    font-weight: 400; 
+    text-align: left;
+    line-height: 1.5em;
+}
+
+a{
+    color: rgb(62, 61, 60);
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 85, 83);
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: left;
+    line-height: 1em;
+
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
